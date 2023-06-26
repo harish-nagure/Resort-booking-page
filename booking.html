@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Book</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form method="get" action="try.php">
+         <div class="book">
+        <h1><center>BOOK YOUR ENJOYMENT</center></h1>
+            <center>
+            <table>
+
+            <tr><td><label class="fname">Enter Your First Name: </label></td>
+                <td><input type="text" name="fname" id="fname" placeholder="First Name"></td></tr>
+
+            <tr><td><label class="fname">Enter Your Last Name: </label></td>
+                <td><input type="text" name="lname" id="lname" placeholder="Last Name"></td></tr>
+
+            <tr><td><label class="pnumber">Enter Phone Number: </label></td>
+            <td><input type="tel" name="pnumber" id="pnumber" placeholder="Contact"></td></tr>
+
+            <tr><td><label class="usermail">Enter Your Email-Id: </label></td>
+            <td><input type="email" name="mail" id="mail" placeholder="email"></td></tr>
+
+            <tr><td colspan="2" style="padding-right:100px ;">
+                <label class="adults">Enter No of Adult: </label>&nbsp;&nbsp;
+            <input type="number" name="adults" id="adults" placeholder="Adults">
+            &nbsp;&nbsp;&nbsp;
+            <label class="children">Enter No of Child: </label>&nbsp;&nbsp;
+            <input type="number" name="children" id="children" placeholder="Childrens"></td></tr>
+
+            <tr><td><label class="address">Enter Your Address: </label></td>
+                <td><textarea cols="20" rows="2" name="address" id="address"></textarea></td></tr>
+
+            <tr><td><label class="usercountry">Country: </label></td>
+                <td><select id="usercountry" name="usercountry">
+                    <option value="not selected">---Select---</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                </select></td></tr>
+
+                <tr><td><label class="idate">Check-In: </label></td>
+                <td><input type="date" name="idate" id="idate"></td></tr>
+
+                <tr><td><label class="odate">Check-Out: </label></td>
+                <td><input type="date" name="odate" id="odate"></td></tr>
+                    
+                
+                <tr> <td>
+                    <input type="Submit" value="Book" class="submit"></td>
+                    <td><input type="Reset" value="Reset" class="reset"></td></tr>
+                    
+
+            </table>
+            </center>
+        </div>
+
+</body>
+</html>

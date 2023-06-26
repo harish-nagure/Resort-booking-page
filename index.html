@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <title>resort</title>
+        <link rel="stylesheet" href="style1.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Square+Peg&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+        <body>
+            <!---banner-->
+            <section id="banner">
+                <div id="link">
+                    <img src="image/logo.png" class="logo">
+                    
+                </div>
+                <p style="display:flex; font-family: 'Square Peg', cursive; text-align: center; margin-left: 0%; font-size: 30px;">new world resort</p>
+                <div id="navg">
+                    <h1 class="name">New World Resort</h1>
+                    <nav>
+                        <ul>
+                        <li><a href="#banner"><span></span>HOME</a></li>
+                        <li><a href="#aboutus"><span></span>ABOUT US</a></li>
+                        <li><A href="booking.html"><span></span>BOOKING</A></li>
+                        </ul>
+                    </nav>
+                </div>
+            <div id="sidenav">
+                <nav>
+                    <ul>
+                    <li><a href="mainpage.html"> HOME</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><A href="booking.html">BOOKING</A></li>
+                    <li><a href="#testimonial">TESTIMONIAL</a></li>
+                    <li><A href="#footer">CONTACT AS</A></li>
+                    <li><A href="https://www.google.com/maps/dir/19.0415763,72.9479706/Beraban,+Kediri,+Tabanan+Regency,+Bali+82121,+Indonesia+@-8.621213,115.086807/@8.7325979,75.5336463,4z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x2dd237824f71deab:0xcaabe270f7e34d69!2m2!1d115.0868565!2d-8.621166!3e0">LOCATION</A></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="menu">
+                <img src="image/menu.png" id="image">
+            </div>
+            <script>
+                var menu = document.getElementById("menu")
+                var sidenav = document.getElementById("sidenav")
+                var image = document.getElementById("image")
+                sidenav.style.right="-250px";
+                menu.onclick=function(){
+                    if(sidenav.style.right=="-250px"){
+                        sidenav.style.right ="0";
+                        image.src="image/close.png";
+                    }
+                    else{
+                        sidenav.style.right ="-250px";
+                        image.src="image/menu.png";
+                    }
+                }
+            </script>
+            </section>
+            
+            <!---about us -->
+            <section id="aboutus">
+                <div class="title-text">
+                <p>ABOUT Us</p>
+                <h1>Better way to Enjoy the Life</h1>
+                </div>
+
+                <div class="about">
+                    <div class="a1">
+                        <img src="image/about1.jpeg">
+                        <div class="layer"></div>
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <img src="image/about2.jpeg">
+                        <div class="layer"></div>
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <img src="image/about3.jpg">
+                        <div class="layer"></div>
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <img src="image/about4.jpg">
+                        <div class="layer"></div>
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <img src="image/about5.jpg">
+                        <div class="layer"></div>
+                        <div class="layer"></div>
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <img src="image/about6.jpg">
+                        <div class="layer"></div>
+                        
+                        <div class="about-desc">
+                            <h3>View of Resort</h3>
+                            <hr>
+                            <p>The natural beauty of the area
+                                and the many activities guests can
+                                partake in: kayaking, swimming, snorkeling,
+                                and more.
+                            </p>
+                         </div>
+                    </div>
+                </div>
+        </section> 
+
+            <!---testimonial-->
+            <section id="testimonial">
+                <div class="title-text">
+                    <p>TESTIMONIAL</p>
+                    <h1>What Clients Says</h1>
+                    </div>
+                    <div class="feedback-row">
+                        <div class="feedback-col">
+                        <div class="user">
+                            <img src="image/img-1.jpg">
+                            <div class="user-info">
+                                <h4>HARISH <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                                <small>@harish</small>
+                            </div>
+                        </div>
+                            <p>One of the best resort I have visited till now. 
+                                The receptionists were really helpful and friendly. 
+                                Great staff who knew how to serve the customer. 
+                                The scenery was beautiful and it was a relieve to walk in such 
+                                a quiet and peaceful environment. 
+                                The view of the sunset from that point was mesmerizing.</p>
+                        </div>
+                        <div class="feedback-col">
+                            <div class="user">
+                                <img src="image/img-2.jpg">
+                                <div class="user-info">
+                                    <h4>SUZENA <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                                    <small>@suzena</small>
+                                </div>
+                            </div>
+                            <p>
+                                The room was well equipped and the service was excellent.
+                                From the balcony, we could view the sea and feel the cool breeze.
+                                The location of our room was absolutely perfect. 
+                                As soon as you come out of the resort, we just need to cross the road
+                                and there is a direct path leading to the beach. It felt like a private beach,
+                                very clean and clear water, a very good place to relax and chill. 
+                            </p>
+                        </div>
+                        <div class="feedback-col">
+                            <div class="user">
+                                <img src="image/img-3.jpg">
+                                <div class="user-info">
+                                    <h4>ROCKY <i class="fa fa-twitter" aria-hidden="true"></i></h4>
+                                    <small>@rocky</small>
+                                </div>
+                            </div>
+                            <p>
+                                The room was well equipped and the service was excellent.
+                                From the balcony, we could view the sea and feel the cool breeze.
+                                The location of our room was absolutely perfect. 
+                                As soon as you come out of the resort, we just need to cross the road
+                                and there is a direct path leading to the beach. It felt like a private beach,
+                                very clean and clear water, a very good place to relax and chill. 
+                            </p>
+                        </div>
+                    </div>
+            </section>
+            <!---footer-->
+            <section id="footer">
+                <div class="title-text">
+                    <p>CONTACT </p>
+                    <h1>Feel your Life Today</h1>
+                    </div>
+                    <div class="footer-row">
+                        <div class="footer-left">
+                            <h1>Opening Hours of Resort pool</h1>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i>Monday to Sunday - 8am to 6pm</p>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i>Saturday and Sunday - 7am to 8pm and Night Party</p>
+                        </div>
+                        <div class="footer-right">
+                            <h1>Get in Touch</h1>
+                            <p><a href="https://www.google.com/maps/dir/19.0415763,72.9479706/Beraban,+Kediri,+Tabanan+Regency,+Bali+82121,+Indonesia+@-8.621213,115.086807/@8.7325979,75.5336463,4z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x2dd237824f71deab:0xcaabe270f7e34d69!2m2!1d115.0868565!2d-8.621166!3e0">
+                                #30 abc colony, XYZ city IN <i class="fa fa-map-marker" aria-hidden="true"></i></a></p>
+                            <p><a href="mainpage.html">example@website.com <i class="fa fa-paper-plane" aria-hidden="true"></i></a></p>
+                            <p><a href="tel:+919324894509">+91-3365584545<i class="fa fa-phone" aria-hidden="true"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <p>Owner Harish Nagure</p>
+                    </div>
+            </section>
+        </body>
+</html>
